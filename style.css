@@ -1,0 +1,11 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}  
+
+header{
+  background-image: url('image/bgi.jpg');
+  background-size: cover;
+  height: 100vh;
+}
