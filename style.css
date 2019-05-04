@@ -5,7 +5,30 @@
 }  
 
 header{
-  background-image: url('image/bgi.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)),url('image/bgi.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
+}
+.row{
+   max-width: 1180px;
+   margin: 0 auto;
+
+}
+.logo{
+  height: 120px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
+
+.main-nav{
+  float: right;
+  margin-top: 60px;
+}
+.main-nav li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 40px;
 }
