@@ -100,4 +100,14 @@ h1{
 .right-button:hover{
   background-color: #bf55ec;
 }
+.colorchange{
+  animation: homebuilder 1s infinite;
+}
+
+@keyframes homebuilder{
+  0%{ color: red;}
+  25%{color: #bf55ec;}
+  50%{color: white;}
+  100%{color: #bf55ec;}
+ }
 
