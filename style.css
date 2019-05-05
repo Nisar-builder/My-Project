@@ -89,9 +89,15 @@ h1{
   margin-right: 15px;
   border: 1px solid #bf55ec;
 }
+.left-button:hover{
+  background-color: #fff;
+}
 .right-button{
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
+}
+.right-button:hover{
+  background-color: #bf55ec;
 }
 
