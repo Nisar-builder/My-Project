@@ -3,6 +3,11 @@
   padding: 0px;
   box-sizing: border-box;
 }  
+body{
+  font-size: 20px;
+  overflow-x: hidden;
+  color:white;
+}
 
 header{
   background-image: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)),url('image/bgi.jpg');
@@ -10,6 +15,13 @@ header{
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+}
+.clearfix:after{
+  content:".";
+  visibility: hidden;
+  display: block;
+  height: 0px;
+  clear: both;
 }
 .row{
    max-width: 1180px;
@@ -38,4 +50,19 @@ header{
   text-decoration: none;
   text-transform: uppercase;
   font-size: 90%;
+  font-weight: 100%
+}
+.main-content-header{
+  width: 1180px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+h1{
+  
+  font-size: 240%;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
 }
