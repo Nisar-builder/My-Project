@@ -10,6 +10,64 @@ body{
   font-family: 'Flamenco', cursive;
 }
 
+.ring
+{
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  transform: translate(-5%,-5%);
+  width: 150px;
+  height: 150px;
+  background: transparent;
+  border: 5px solid transparent;
+  border-radius: 30%;
+  text-align: left;
+  margin-bottom: 50px; 
+  line-height: 80px;
+  font-size: 9px;
+  color: white;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #fff000;
+  
+}
+.ring:before{
+ content: '';
+ position: absolute;
+ top: -3px;
+ left:-10px;
+ width: 50%;
+ height: 50%;
+ border: 3px solid transparent;
+ border-top: 3px solid white;
+ border-right: 3px solid #fff000;
+ border-radius: 50%;
+ animation: animateCircle 2s linear infinite;
+}
+
+
+@keyframes animateCircle{
+ 0%
+ {
+   transform: rotate(0deg);
+ }
+ 100%
+ {
+   transform: rotate(360deg);
+ }
+}
+
+@keyframes animate{
+ 0%
+ {
+   transform: rotate(45deg);
+ }
+ 100%
+ {
+   transform: rotate(405deg);
+ }
+}
+
 header{
   background-image: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)),url('image/bgi.jpg');
   background-size: cover;
@@ -141,7 +199,7 @@ h1{
       float: left;
       display: none;
       margin-left: 35%;
-      margin-top: 30px;
+      margin-top: 10px;
     
     }
 
