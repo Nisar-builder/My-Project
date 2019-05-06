@@ -29,7 +29,6 @@ body{
   letter-spacing: 8px;
   text-transform: uppercase;
   text-shadow: 0 0 10px #fff000;
-  
 }
 .ring:before{
  content: '';
