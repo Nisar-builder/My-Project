@@ -130,12 +130,27 @@ h1{
 
     .main-nav{display: none;}
 
-    .mobile-icon{
-       display: inline-block;
+    .mobile-icon{ 
+      display:block;
+      float: right;
        color: #fff;
-       float: right;
        margin-top: 30px;
        margin-right: 20px;
     }
+    .main-nav {
+      float: left;
+      display: none;
+      margin-left: 35%;
+      margin-top: 30px;
+    
+    }
+
+    .main-nav li{
+      display: block;
+      margin-bottom: 15px;
+      
+    }
+
+
   }
 }
