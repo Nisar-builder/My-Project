@@ -28,7 +28,7 @@ body{
   color: white;
   letter-spacing: 8px;
   text-transform: uppercase;
-  text-shadow: 0 0 10px #fff000;
+  text-shadow: 0 0 10px #fff000;  
 }
 .ring:before{
  content: '';
@@ -197,8 +197,9 @@ h1{
     .main-nav {
       float: left;
       display: none;
-      margin-left: 35%;
+      margin-left: 60%;
       margin-top: 10px;
+      font-size: 30px;
     
     }
 
@@ -207,7 +208,18 @@ h1{
       margin-bottom: 15px;
       
     }
-
-
-  }
+ }
+}
+@media only screen and (max-width: 480px){
+      .left-button{
+        margin-bottom: 20px;
+      }
+      h1{ font-size: 160%;}
+      .main-nav {
+        float: left;
+        display: none;
+        margin-left: 50%;
+        margin-top: 10px;
+        font-size: 20px;
+   }
 }
