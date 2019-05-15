@@ -189,9 +189,9 @@ h1{
     .mobile-icon{ 
       display:block;
       float: right;
-       color: #fff;
-       margin-top: 30px;
-       margin-right: 20px;
+      color: #fff;
+      margin-top: 30px;
+      margin-right: 20px;
        
     }
     .main-nav {
@@ -214,13 +214,11 @@ h1{
       .left-button{
         margin-bottom: 20px;
       }
-      h1{ font-size: 160%;}
-      .main-nav {
-        float: left;
-        display: none;
-        font-size: 20px;
-        position: center;
-      }
+      h1{
+         font-size: 160%;
+        }
+
+        
         .overlay{
           position: absolute;
           left: 0;
@@ -229,6 +227,11 @@ h1{
           z-index: 1000;
           background-color: rgba(0,0,0,.5);
           width: 100vw;
+        }
+         .fa-bars{
+          position: absolute;
+          right: 20px;
+          z-index: 1100;
         }
   }
 
